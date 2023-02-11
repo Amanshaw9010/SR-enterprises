@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./image/LOGO.png" type="image/x-icon">
+    <meta name="keywords"
+        content="sr Enterprises, Enterprises, sr ,Engineering & Services,shopfloor,best engineering services,best Fabrication,best Feasibility Studies,engineering,">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <title>SR Enterprises</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+</head>
+
+<script>
+
+    const scrollHandler = () => {
+        if (window.scrollY > 40) {
+            document.getElementById("nav").classList.add("sticky-nav");
+        } else {
+            document.getElementById("nav").classList.remove("sticky-nav")
+        }
+    }
+    window.addEventListener("scroll", scrollHandler)
+
+    function onClickMenu() {
+        document.getElementById("menu").classList.toggle("icon")
+        document.getElementById("nav2").classList.toggle("change")
+    }
+
+
+</script>
+
+<body>
+
+    <div class="wrapper" id="wrapper">
+
+        <div class="header-container">
+            <nav class="flex" id="nav"">
+                <div class=" nav-container flex">
+                <div class="logo flex">
+                    <img src="./image/LOGO.png" alt="">
+                    <span>ENTERPRISES</span>
+                </div>
+                <div id="menu" onclick="onClickMenu()">
+                    <div id="bar1" class="bar"></div>
+                    <div id="bar2" class="bar"></div>
+                    <div id="bar3" class="bar"></div>
+                </div>
+
+                <ul class="nav" id="nav2">
+                    <a href="#wrapper" class="nav-first-item" onclick="onClickMenu()">
+                        <li>Home</li>
+                    </a>
+                    <a href="#mission" onclick="onClickMenu()">
+                        <li>Our Mission</li>
+                    </a>
+                    <a href="#value" onclick="onClickMenu()">
+                        <li>Values</li>
+                    </a>
+                    <a href="#Service" onclick="onClickMenu()">
+                        <li>Services</li>
+                    </a>
+                    <a href="#contact" id="conatct" onclick="onClickMenu()">
+                        <li>Contact Us</li>
+                    </a>
+                    <a href="#contact" onclick="onClickMenu()">
+                        <button class="nav-btn" id="">Contact Us</button>
+                    </a>
+                </ul>
+        </div>
+        </nav>
+
+        <div class="home-main flex">
+            <div class="home-container">
+                <div class="left flex">
+                    <h3>SR ENTERPRISES</h3>
+                    <h1 data-aos="fade-right" data-aos-duration="1000">Engineering & Services</h1>
+                    <h2 data-aos="fade-right" data-aos-duration="1500">The Intelligent Way to Plan and Execute.</h2>
+                    <p data-aos="fade-right" data-aos-duration="2000">We are
+                        offering engineering services in terms of High pressure pipe line laying, Fabrication
+                        (structure & Site Abalysis, Feasibility Studies, Preliminary Design Studies, Permit/Zoning
+                        Applications, etc. We handle various industrial, distribution, manufacturing, office,
+                        retail,
+                        recreational, healthcare and commercial projects in the Chicago area and
+                        regional markets.</p>
+                </div>
+                <div class="right flex" data-aos="fade-up" data-aos-duration="1000">
+                    <img src="./image/Home-page img.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <section class="mission-section" id="mission">
+        <h1 class="mission-heading">Our Mission</h1>
+        <div class="mission flex">
+            <div class="first-mission-section ">
+                <img src="./image/First mission img.png" alt="" data-aos="fade-up" data-aos-duration="2000">
+
+                <div class="content flex" data-aos="fade-right" data-aos-duration="1500">
+                    <h2>OUR MISSION STATEMENT</h2>
+                    <span></span>
+                    <p>Dedication to providing quality construction, technical and management services to our
+                        customers. We will strive to implement a long term relationship with our clients, based
+                        on safety, quality, timely service and an anticipation of their needs. To help this
+                        mission, we will treat all them
+                        process to insure responsiveness and cost effective work execution.
+                    </p>
+                </div>
+            </div>
+
+
+
+            <div class="second-mission-section flex">
+                <h2>We are committed </h2>
+                <div class="mission-card">
+                    <div class="card flex" data-aos="fade-up" data-aos-duration="1500">
+                        <img src="./image/mission-card2.jpg" alt="">
+                        <p>Providing long-term commitment and
+                            support to our clients.
+                        </p>
+                    </div>
+                    <div class="card flex" data-aos="fade-up" data-aos-duration="1500">
+                        <img src="./image/mission-card3.jpg" alt="">
+                        <p>Remaining at the cutting edge of
+                            manufacturing (fabrication and
+                            machining) services and combining this
+                            knowledge with the highest standards of
+                            engineering practice.
+                        </p>
+                    </div>
+                    <div class="card flex" data-aos="fade-up" data-aos-duration="1500">
+                        <img src="./image/mission-card1.jpg" alt="">
+                        <p>Achieving the highest level of
+                            innovation, skill and competence in our field
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+
+    <section class="value-section" id="value">
+        <h2>VALUES STATEMENT</h2>
+        <div class="value-main flex">
+            <div class="value-container flex">
+                <img src="./image/value-img1.jpg" alt="" data-aos="fade-right" data-aos-duration="1500">
+
+                <div class="value-content flex" data-aos="fade-left" data-aos-duration="1500">
+                    <div class="value-content-heading flex">
+                        <span></span>
+                        <h2>QUALITY</h2>
+                    </div>
+                    <p>We are committed to providing the highest quality service and products to our clients and to
+                        add value to their investment. Our end to end engineering processes and systems provide the
+                        means by which we can deliver our service and commitments.</p>
+                </div>
+            </div>
+
+            <div class="value-container flex row-reverse">
+                <div class="value-content flex" data-aos="fade-up" data-aos-duration="1500">
+                    <div class="value-content-heading flex">
+                        <span></span>
+                        <h2>VALUE</h2>
+                    </div>
+                    <p>We treat our clients business as our business by providing value for money and obtaining the
+                        most competitive pricing.</p>
+                </div>
+
+                <img src="./image/value-img2.jpg" alt="" data-aos="fade-up" data-aos-duration="1500">
+            </div>
+
+            <div class="value-container flex">
+                <img src="./image/value-img3.jpg" alt="" data-aos="fade-right" data-aos-duration="1500">
+
+                <div class="value-content flex" data-aos="fade-right" data-aos-duration="1500">
+                    <div class="value-content-heading flex">
+                        <span></span>
+                        <h2>INTEGRITY </h2>
+                    </div>
+                    <p>We will be honest and open in all our dealings to ensure we obtain the trust of our clients.
+                    </p>
+                </div>
+            </div>
+
+            <div class="value-container flex row-reverse">
+                <div class="value-content flex" data-aos="fade-left" data-aos-duration="1500">
+                    <div class="value-content-heading flex">
+                        <span></span>
+                        <h2>TEAMWORK </h2>
+                    </div>
+                    <p>We actively promote teamwork and expect each person to take responsibility for their work,
+                        and treat others with respect.</p>
+                </div>
+
+                <img src="./image/value-img4.jpg" alt="" data-aos="fade-left" data-aos-duration="1500">
+            </div>
+
+            <div class="value-container flex">
+                <img src="./image/value-img5.jpg" alt="" data-aos="fade-up" data-aos-duration="1500">
+
+                <div class="value-content flex" data-aos="fade-up" data-aos-duration="1500">
+                    <div class="value-content-heading flex">
+                        <span></span>
+                        <h2>INNOVATION</h2>
+                    </div>
+                    <p>We aspire to provide our clients with innovative and effective solutions in our provision of
+                        service.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <section class="video-section flex">
+        <div class="video-main flex">
+
+            <div class="video-cards">
+                <div class="V-cards flex" data-aos="fade-right" data-aos-duration="1500">
+                    <video controls>
+                        <source src="./video/1.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="V-cards flex" data-aos="fade-up" data-aos-duration="1500">
+                    <video controls>
+                        <source src="./video/2.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="V-cards flex" data-aos="fade-left" data-aos-duration="1500">
+                    <video controls>
+                        <source src="./video/3.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="V-cards flex" data-aos="fade-right" data-aos-duration="1500">
+                    <video controls>
+                        <source src="./video/4.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="V-cards flex" data-aos="fade-up" data-aos-duration="1500">
+                    <video controls>
+                        <source src="./video/5.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="V-cards flex" data-aos="fade-left" data-aos-duration="1500">
+                    <video controls>
+                        <source src="./video/6.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="V-cards flex" data-aos="fade-right" data-aos-duration="1500">
+                    <video controls>
+                        <source src="./video/7.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="V-cards flex" data-aos="fade-left" data-aos-duration="1500">
+                    <video controls>
+                        <source src="./video/8.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <section class="shopfloor-section flex" id="Service">
+        <h1>SHOPFLOOR</h1>
+        <div class="shopfloor-main flex">
+            <div class="shopfloor-left flex" data-aos="fade-right" data-aos-duration="1500">
+                <div class="shopfloor-left-heading flex">
+                    <span></span>
+                    <h1>On-Site Services</h1>
+                </div>
+                <p>S.R. Enterprises offers in-house sheet metal, welding, fabrication, machining and painting
+                    facilities and workshops that produce custom designed products and services, including</p>
+                <p>
+                    We provide an end to end production facility with direct access to stock, parts and equipment
+                    for the
+                    job at hand.
+                </p>
+                <p>Our Service Manager who is instrumental in facilitating the drawings and specifications from
+                    material requisition to production and subsequently through to site installation and quality
+                    testing.</p>
+                <p>
+                    Our highly skilled and trained tradespeople and supervisors offer our clients a one stop shop
+                    ensuring the most cost effective outcome for the client and the Company.
+                </p>
+
+                <div class="safety-container flex">
+                    <div class="safety-container-heading flex">
+                        <span></span>
+                        <h1>SAFETY STATEMENT</h1>
+                    </div>
+                    <p>At S.R. Enterprises our Occupational Health and Safety Policy is based on the belief that the
+                        wellbeing of our people at work, or people affected by our work, is the highest priority and
+                        must be considered during all work
+                        performed.
+                    </p>
+                    <p>
+                        Our staff are our most important asset and their health and safety is our greatest
+                        responsibility.
+                        The management of S.R. Enterprises is totally committed to providing and maintaining a safe
+                        and healthy working environment.
+                    </p>
+                    <p>
+                        Through our established safety committees and representatives we consult with our employees
+                        about health and safety. Our health and safety policies are the documented principles,
+                        objectives, obligations and commitments that guide our decision making within our business.
+                    </p>
+                </div>
+            </div>
+
+            <div class="shopfloor-right flex" data-aos="fade-left" data-aos-duration="1500">
+                <div class="shopfloor-card flex">
+                    <img src="./image/shopfloor-card1.jpg" alt="">
+                    <p>Light and heavy fabrication</p>
+                </div>
+                <div class="shopfloor-card flex">
+                    <img src="./image/shopfloor-card2.jpg" alt="">
+                    <p>General engineering and machining</p>
+                </div>
+                <div class="shopfloor-card flex">
+                    <img src="./image/shopfloor-card3.jpg" alt="">
+                    <p>All classes of welding, including aluminum and stainless steel</p>
+                </div>
+                <div class="shopfloor-card flex">
+                    <img src="./image/shopfloor-card4.jpg" alt="">
+                    <p>Sheet metal work</p>
+                </div>
+                <div class="shopfloor-card flex">
+                    <img src="./image/shopfloor-card5.jpg" alt="">
+                    <p>Sandblasting and protective coatings, Industrial Tiling and wear resisting</p>
+                </div>
+                <div class="shopfloor-card flex">
+                    <img src="./image/shopfloor-card6.jpg" alt="">
+                    <p>Poly pipe welding Hydraulic pipe line, hoses, fittings and components</p>
+                </div>
+                <div class="shopfloor-card flex">
+                    <img src="./image/shopfloor-card7.jpg" alt="">
+                    <p>Hydraulic line laying & fault finding services</p>
+                </div>
+                <div class="shopfloor-card flex">
+                    <img src="./image/shopfloor-card8.jpg" alt="">
+                    <p>Electrical repair & electrical wiring services</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <section class="Service-section flex">
+        <h1>SERVICE</h1>
+        <div class="Service-main flex">
+            <p data-aos="fade-up" data-aos-duration="2000">At S. R. Enterprises we have the resources to ensure
+                successful project completion and client
+                satisfaction. <br> Our goal is to be sure that our clients project progresses smoothly and that all
+                project time frames <br> and resources are managed as efficiently and effectively as possible.
+                Our staff are trained and <br> competent in all onsite requirements and specifications.
+                Some of the onsite services we <br> provide include, but are not limited to the following...
+            </p>
+
+            <div class="service-card-section flex">
+                <div class="service-card flex" data-aos="fade-right" data-aos-duration="1500">
+                    <img src="./image/service-img1.jpg" alt="">
+                    <p>Onsite Labour</p>
+                </div>
+                <div class="service-card flex" data-aos="fade-left" data-aos-duration="1500">
+                    <img src="./image/service-img2.jpg" alt="">
+                    <p>Mobile Welding</p>
+                </div>
+                <div class="service-card flex" data-aos="fade-up" data-aos-duration="1500">
+                    <img src="./image/service-img3.jpg" alt="">
+                    <p>Pipe Welding</p>
+                </div>
+                <div class="service-card flex" data-aos="fade-up" data-aos-duration="1500">
+                    <img src="./image/service-img4.jpg" alt="">
+                    <p>Sandblasting and Protective Coatings</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <footer class="footer-section flex">
+        <div class="footer-main flex">
+            <div class="footer-left flex">
+                <div class="footer-logo flex">
+                    <img src="./image/LOGO.png" alt="">
+                    <span>ENTERPRISES</span>
+                </div>
+
+                <div class="footer-social-link flex">
+                    <a
+                        href="https://wa.me/8433785391?text=Hello%20sir%2C%20I%20want%20to%20talk%20about%20regarding%20Electrical%2C%20Engineering%2C%20Fabrication%2C%20Interior%20Decoration%2C%20Material%20Suppliers."><i
+                            class="fa-brands fa-whatsapp"></i>
+                    </a>
+                </div>
+
+                <div class="footer-mail flex">
+                    <h2>Email:- </h2>
+                    <a href="mailto:srentp0212@gmail.com"> srentp0212@gmail.com</a>
+                </div>
+
+                <div class="footer-addres-container ">
+                    <h2>Contact Us</h2>
+                    <div class="footer-addres flex">
+                        <div class="addres1">
+                            <h3>Postal Address</h3>
+                            <p>402, plot no. 19/120, Disha Apartment, Sector-20, Nerul west, Navi Mumbai,
+                                Maharashtra - 400706.</p>
+                        </div>
+                        <div class="addres2">
+                            <h3>Business Address</h3>
+                            <p>402, plot no. 19/120, Disha Apartment, Sector-20, Nerul west, Navi Mumbai,
+                                Maharashtra - 400706.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="contact-page flex" id="contact">
+                <form action="https://formspree.io/f/mknaodng" method="post" class="flex">
+                    <input type="text" placeholder="Enter Your Name" id="name" name="name">
+                    <input type="text" placeholder="Enter Your Email" id="email" name="email">
+                    <input type="number" placeholder="Contact Number" id="phone" name="phone">
+                    <textarea name="body" id="message" cols="30" rows="10" placeholder="How Can I Help You?"></textarea>
+                    <button type="submit" class="submit-btn" name="submit" id="submit">Submit</button>
+                    <button type="reset" class="submit-btn" name="reset">Reset</button>
+                </form>
+            </div>
+        </div>
+    </footer>
+    </div>
+
+
+    <script>
+        let submit = document.getElementById("submit");
+
+        submit.addEventListener("click", function () {
+            let url = "https://wa.link/cw1uxv";
+            window.open(url, "_blank");
+        });
+
+
+        AOS.init();
+
+
+    </script>
+
+
+
+
+</body>
+
+</html>
